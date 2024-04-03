@@ -1,0 +1,104 @@
+a, p, h1, h2, h3, h4, h5, h6, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  position: unset;
+  flex-wrap: nowrap;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  background-color: #ffab74;
+}
+body #calendar {
+  top: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+body #calendar .day {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  font-size: 1.1em;
+  font-style: oblique;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+body #calendar .day:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+body .style_table .modal-header {
+  display: flex;
+  align-items: center;
+}
+body .style_table .modal-header h5 {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+body .style_table .modal-header button {
+  font-size: 2em;
+}
+body .style_table .modal-body table {
+  border: 2px solid #000;
+  width: 100%;
+  margin: 0 auto;
+}
+body .style_table .modal-body table thead tr th {
+  border: 1px solid #444;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  padding: 5px 10px;
+}
+body .style_table .modal-body table tbody tr td {
+  border: 1px solid #666;
+  padding: 5px;
+  color: #222;
+}
+body .style_table .modal-body table tbody tr td p {
+  letter-spacing: 0.5px;
+}
+body .style_table .modal-body table tbody tr td span {
+  display: block;
+  width: 100%;
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  text-align: right;
+}/*# sourceMappingURL=main.css.map */
